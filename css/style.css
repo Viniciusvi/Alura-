@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+:root {
+    --branco-principal: #fff;
+    --cinza-secundario: #c0c0c0;
+    --botao-azul: #167bf7;
+    --cor-de-fundo: #00030c;
+    --fonte-principal: "Inter", sans-serif;
+    --cor-hover-button: #0c33ddcc;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    height: 100vh;
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.principal {
+    background-image: url("/img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.container {
+    height: 100vh;
+    grid-template-columns: 50% 50%;
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
+
+.container-botao {
+    background-color: var(--botao-azul);
+    border-radius:  5px;
+    padding: 3.5%;
+    display: block;
+    color: var(--branco-principal);
+    text-decoration: none;
+    margin-bottom: 4%;
+    font-size: 1rem;
+    width: 100%;
+    transition: 0.3s;
+
+}
+
+.container-botao:hover{
+    transform: scale(1.05);
+}
+
+.secundario {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal); 
+}
+
+.container-aviso {
+    font-size: 0.7rem;
+    color: var(--cinza-secundario);
+}
+
+.container-titulo {
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.container-img {
+    margin: 7% 0 ;
+}
+
+.container-txt {
+    margin: 0 11% 0 11%;
+    width: 512px;
+    height: 307px;
+}
+
+/* Section Secundaria */
+
+section.container-secundario {
+    padding: 5% 4%;
+}
+
+.interface-estilo-geral {
+    max-width: 1380px;
+    margin:auto     
+}
+
+.container-secundario-geral {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+
+.container-secundario-txt h1 {
+    font-size: 3rem;
+    margin-bottom: 5%;
+}
+.container-secundario-txt p {
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--cinza-secundario);
+}
+
+.container-secundario-txt {
+    width: 588px;
+    height: 114px;
+}
+
+section.container-secundario .container-secundario-geral img {
+    width: 498px;
+    height: 560px;
+}
+
+/* Section Terciaria */
+
+section.container-terciario {
+    padding: 8% 4%;
+}
+
+.interface-estilo-geral {
+    max-width: 1380px;
+    margin:auto     
+}
+
+.container-terciario-geral {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8%;
+}
+
+section.container-terciario .texto-geral {
+    width: 588px;
+    height: 144px;
+}
+
+section.container-terciario .texto-geral p {
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 4%;
+    color: var(--cinza-secundario)
+}
+
+.section.container-terciario .texto-geral a {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.texto-geral button {
+    background-color: var(--botao-azul);
+    padding: 3%;
+    color: var(--branco-principal);
+    border-radius: 7px;
+    transition: 0.4s;
+    border: none;
+    cursor: pointer;
+}
+.texto-geral button:hover {
+    transform: scale(1.10);
+}
+
+/* Section Quartenaria */
+
+
+section.container-quartenario {
+    padding: 8% 4%;
+}
+
+section .container-quartenario-geral {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8%;
+}
+
+ section .container-quartenario-txt {
+    width: 588px;
+    height: 114px;
+}
+
+section .container-quartenario-txt h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 4%;
+}
+
+section .container-quartenario-txt p {
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--cinza-secundario);
+}
+
+/* Section Quintenaria */
+
+section.container-quintenario {
+    padding: 9% 4%;
+}
+
+.container-quintenario-txt h1 {
+    font-size: 3rem;
+    margin-bottom: 7%;
+    text-align: center;
+    font-weight: 600;
+}
+
+.container-quintenario-geral {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+section .container-quintenario-geral p {
+    font-size: 2rem;
+    text-align: center;
+}
+/* Sexta Section  */
+
+
+footer.sexto-container {
+    padding: 2% 4%;
+}
+
+.txt-geral {
+    display: flex;
+    justify-content: center;
+}
+
+.txt-geral ul li {
+    display: inline-block;
+    padding-right: 8px;
+    cursor: pointer;
+}
+
+.txt-geral ul li:hover {
+    color: var(--botao-azul);
+}
+
+.container-img {
+    display: flex;
+    justify-content: center;
+}
+
+
+.container-p p {
+    color: var(--cinza-secundario);
+    font-size: 0.9rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.container-p .p {
+    margin: 1.5%;
+}
+
+/* Responsividade */
+
+@media (max-width: 1306px) {
+    
+    .principal {
+        background-image: url("");
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+
+    main {
+        margin: 10%;
+        margin: auto;
+    }
+/* Container Secundario */
+
+    .container-secundario {
+        width: auto;
+        padding: 0 10%;
+    }
+
+    .container-secundario-geral img {
+        margin-bottom: 10%;
+    }
+
+    .container-secundario-txt {
+        text-align: center;
+    }
+
+    .container-secundario-geral {
+        flex-direction: column;
+    }
+/* Container terciario */
+    .container-terciario-geral {
+        flex-direction: column-reverse;
+    }
+    .container-terciario-geral img {
+        margin-bottom: 10%;
+    }
+    .texto-geral {
+        display: flex;
+        flex-direction: column;
+    }
+    .texto-geral p {
+        text-align: center;
+    }
+    .texto-geral a {
+        display: flex;
+        justify-content: center;
+    }
+/* Container Quartenario */
+    .container-quartenario-geral {
+        flex-direction: column;
+    }
+    .container-quartenario-geral img {
+        margin-bottom: 10%;
+    }
+    .container-quartenario-txt p {
+        text-align: center;
+    }
+    .container-quartenario-txt h1 {
+        text-align: center;
+    }
+
+/* Conteiner Quintenario */
+    .container-quintenario-geral {
+        flex-direction: column;
+    }
+    .computadores {
+        margin: 5% 0 5% 0;
+    }
+
+/* Sexto Container */
+
+    .txt-geral {
+        text-align: center;
+    }
+
+}
