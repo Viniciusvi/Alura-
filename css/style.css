@@ -112,13 +112,12 @@ section.container-secundario {
 }
 
 .container-secundario-txt {
-    width: 588px;
-    height: 114px;
+    width: 40%;
+    height: 0%;
 }
 
 section.container-secundario .container-secundario-geral img {
-    width: 498px;
-    height: 560px;
+    width: 60vh;
 }
 
 /* Section Terciaria */
@@ -132,16 +131,15 @@ section.container-terciario {
     margin:auto     
 }
 
+.container-terciario-geral img {
+   width: 60vh; 
+}
+
 .container-terciario-geral {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 8%;
-}
-
-section.container-terciario .texto-geral {
-    width: 588px;
-    height: 144px;
 }
 
 section.container-terciario .texto-geral p {
@@ -183,9 +181,8 @@ section .container-quartenario-geral {
     gap: 8%;
 }
 
- section .container-quartenario-txt {
-    width: 588px;
-    height: 114px;
+.container-quartenario-geral img {
+    width: 60vh;
 }
 
 section .container-quartenario-txt h1 {
@@ -274,10 +271,6 @@ footer.sexto-container {
         justify-content: center;
     }
 
-    main {
-        margin: 10%;
-        margin: auto;
-    }
 /* Container Secundario */
 
     .container-secundario {
@@ -285,12 +278,17 @@ footer.sexto-container {
         padding: 0 10%;
     }
 
-    .container-secundario-geral img {
+    section.container-secundario .container-secundario-geral img {
+        width: 100%;
         margin-bottom: 10%;
     }
 
     .container-secundario-txt {
         text-align: center;
+        width: 100%;
+    }
+    .container-secundario-txt h1 {
+        font-size: 38px;
     }
 
     .container-secundario-geral {
@@ -300,12 +298,14 @@ footer.sexto-container {
     .container-terciario-geral {
         flex-direction: column-reverse;
     }
+    
     .container-terciario-geral img {
-        margin-bottom: 10%;
+        margin: 15%;
+        width: 100%;
     }
     .texto-geral {
         display: flex;
-        flex-direction: column;
+        flex-direction: column; 
     }
     .texto-geral p {
         text-align: center;
@@ -314,20 +314,23 @@ footer.sexto-container {
         display: flex;
         justify-content: center;
     }
+    
 /* Container Quartenario */
     .container-quartenario-geral {
         flex-direction: column;
     }
     .container-quartenario-geral img {
-        margin-bottom: 10%;
+        margin: 10%;
+        width: 100%;
     }
     .container-quartenario-txt p {
         text-align: center;
     }
     .container-quartenario-txt h1 {
+        margin-bottom: 7%;
         text-align: center;
+        font-weight: 600;
     }
-
 /* Conteiner Quintenario */
     .container-quintenario-geral {
         flex-direction: column;
@@ -336,10 +339,20 @@ footer.sexto-container {
         margin: 5% 0 5% 0;
     }
 
+    .container-quintenario-txt h1 {
+        font-size: 2%;
+        margin-bottom: 7%;
+        text-align: center;
+        font-weight: 600;
+    }
 /* Sexto Container */
 
     .txt-geral {
         text-align: center;
     }
+    .text-geral .p {
+        font-size: 20px;
+    }
+
 
 }
